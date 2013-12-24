@@ -1,0 +1,148 @@
+.header {
+  position: relative;
+  padding: 10px;
+  width: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background: url("/assets/img/triangular.png"); }
+
+.title {
+  display: inline-block;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.navigation {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  vertical-align: top; }
+
+.mobile-navigation {
+  display: none; }
+
+.navigation-link {
+  display: inline-block;
+  text-align: center; }
+
+.hide {
+  display: none; }
+
+.showDropdown {
+  display: block;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px; }
+
+.showMobileNavigation {
+  display: block; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0px;
+  padding: 0px; }
+
+a {
+  text-decoration: none; }
+
+.site {
+  font-family: "helvetica";
+  max-width: 960px;
+  min-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px; }
+
+.button {
+  background-color: rgba(235, 235, 235, 0.5);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  height: 100%;
+  padding: 9px 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 80px;
+  color: black; }
+
+.button:hover {
+  background-color: #a5a5a5;
+  cursor: pointer; }
+
+.navigation-link:active {
+  color: black; }
+
+.content {
+  padding: 10px;
+  min-height: 300px; }
+
+.footer {
+  display: table;
+  border-top: solid;
+  border-top-width: 2px;
+  border-top-color: lightgray;
+  text-align: center;
+  padding: 10px; }
+
+.footer-content {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle; }
+
+.small-font {
+  font-size: 13px; }
+
+.license {
+  display: table-cell;
+  width: 50%;
+  text-align: justify;
+  font-size: 13px; }
+
+.posts {
+  list-style-type: none;
+  margin-bottom: 2em; }
+
+.posts li {
+  line-height: 1.75em; }
+
+.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%; }
+
+/* standard */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em; }
+
+.post ul, .post ol {
+  margin-left: 1.35em; }
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em; }
+
+.post pre code {
+  border: none; }
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF; }
+
+.post pre.terminal code {
+  background-color: #333; }
