@@ -1,0 +1,132 @@
+@import "constants";
+@import "vendor_prefix";
+@import "navigation";
+
+*, *:before, *:after {
+  @include border-box(border-box)
+}
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site {
+  font-family: $font-stack;
+
+  max-width: $max-page-width;
+  min-width: $min-page-width;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  padding: 10px;
+}
+
+.button {
+  background-color: $button-colour;
+
+  @include border-radius(2px);
+
+  height: 100%;
+  padding: 9px 5px;
+  margin-left: $button-margin;
+  margin-right: $button-margin;
+
+  width: $button-width;
+
+  color: black;
+}
+
+.button:hover {
+  background-color: $button-hover-colour;
+  cursor: pointer;
+}
+
+.navigation-link:active {
+  color: black;
+}
+
+.content {
+  padding: 10px;
+  min-height: 300px;
+}
+
+.footer {
+  display: table;
+
+  border-top: solid;
+  border-top-width: 2px;
+  border-top-color: lightgray;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-content {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+}
+
+.small-font {
+    font-size: 13px;
+}
+
+.license {
+  display: table-cell;
+  width: 50%;
+  text-align: justify;
+  font-size: 13px;
+}
+
+.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+.posts li {
+  line-height: 1.75em;
+}
+
+.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%;
+}
+
+/* standard */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
