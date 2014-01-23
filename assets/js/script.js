@@ -10,8 +10,8 @@ $(window).bind("ready", function() {
 
 	if (matchMedia){
 		var mobileMedia = window.matchMedia( "(max-width: " + mobileWidth + "px)" );
-		mobileMedia.addListener(IsMobileCallback)
-		IsMobileCallback(mobileMedia)
+		mobileMedia.addListener(IsMobileCallback);
+		IsMobileCallback(mobileMedia);
 	}
 
 	function IsMobileCallback(mobileMedia){
@@ -23,13 +23,13 @@ $(window).bind("ready", function() {
 		} else{
 			$(".navigation-link").removeClass("hide");
 			$(".mobile-navigation").removeClass("showMobileNavigation");
-		};
+		}
 	}
 
 	$(".navigation").hover(function(){
 		if (self.isMobile) {
 			$(".navigation-link").addClass("showDropdown");
-		};
+		}
 	}, function(){
 		$(".navigation-link").removeClass("showDropdown");
 	});
