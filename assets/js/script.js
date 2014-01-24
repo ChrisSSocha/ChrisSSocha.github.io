@@ -1,3 +1,11 @@
+window.onerror=function(msg){
+  if (!sessionStorage.jsError){
+    sessionStorage.jsError = "";
+  }
+
+  sessionStorage.jsError += msg + "; ";
+}
+
 $(window).bind("ready", function() {
 
   var titleWidth = $(".title").outerWidth();
@@ -33,4 +41,6 @@ $(window).bind("ready", function() {
   });
 
 });
+
+throw "This is a test error"
 
