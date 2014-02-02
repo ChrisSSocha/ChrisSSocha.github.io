@@ -87,16 +87,46 @@ a {
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
+
+  li {
+    line-height: 1.75em;
+  }
+
+  span {
+    color: #aaa;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 80%;
+  }
 }
 
-.posts li {
-  line-height: 1.75em;
-}
+.list {
+  list-style-type: none;
+  line-height: 25px;
 
-.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+  span {
+    padding: 3px;
+    font-variant: small-caps;
+    font-size: x-small;
+    vertical-align: middle;
+    border-style: solid;
+  }
+
+  .watched {
+    margin-right: 20px;
+    border-color: green;
+  }
+
+  .watched:after {
+    content: "Watched";
+  }
+
+  .not-watched {
+    border-color: red;
+  }
+
+  .not-watched:after {
+    content: "Not Watched";
+  }
 }
 
 /* standard */

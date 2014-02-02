@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+
+<div class="post">
+	{{ content }}
+
+	<ul class="list">
+    {% for film in site.data.lgbt-films %}
+    	{% if film.watched == true %}
+    		{% assign watched = 'watched' %}
+    	{% else %}
+    		{% assign watched = 'not-watched' %}
+    	{% endif %}
+
+    	<li><span class="{{ watched }}"></span> {{ film.title }} <em>({{ film.year }}, {{ film.lang }})</em>
+    {% endfor %}
+	</ul>
+</div>
