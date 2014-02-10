@@ -111,21 +111,39 @@ a {
     border-style: solid;
   }
 
-  .watched {
+  .watched, .read {
     margin-right: 20px;
     border-color: green;
   }
 
-  .watched:after {
+  .watched:after{
     content: "Watched";
   }
 
-  .not-watched {
+  .read:after{
+    content: "Read";
+  }
+
+  .not-watched, .not-read {
     border-color: red;
+  }
+
+  .reading {
+    margin-right: 6px;
+    border-color: green;
+    border-style: double;
+  }
+
+  .reading:after {
+    content: "Reading";
   }
 
   .not-watched:after {
     content: "Not Watched";
+  }
+
+  .not-read:after {
+    content: "Not Read";
   }
 }
 

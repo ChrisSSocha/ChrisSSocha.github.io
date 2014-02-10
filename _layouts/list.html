@@ -7,14 +7,15 @@ layout: default
 	{{ content }}
 
 	<ul class="list">
-    {% for film in site.data.lgbt-films %}
-    	{% if film.watched == true %}
-    		{% assign watched = 'watched' %}
-    	{% else %}
-    		{% assign watched = 'not-watched' %}
-    	{% endif %}
-
-    	<li><span class="{{ watched }}"></span> {{ film.title }} <em>({{ film.year }}, {{ film.lang }})</em>
+    {% for data in site.data %}
+        {% if data contains page.list %}
+            {% for item in data[1] %}
+                <li><span class="{{ item.status }}"></span> {{ item.title }} 
+                {% if item.comments %}
+                    <em>({{ item.comments }})</em>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
     {% endfor %}
 	</ul>
 </div>

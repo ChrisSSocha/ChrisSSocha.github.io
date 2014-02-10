@@ -128,15 +128,25 @@ a {
     font-size: x-small;
     vertical-align: middle;
     border-style: solid; }
-  .list .watched {
+  .list .watched, .list .read {
     margin-right: 20px;
     border-color: green; }
   .list .watched:after {
     content: "Watched"; }
-  .list .not-watched {
+  .list .read:after {
+    content: "Read"; }
+  .list .not-watched, .list .not-read {
     border-color: red; }
+  .list .reading {
+    margin-right: 6px;
+    border-color: green;
+    border-style: double; }
+  .list .reading:after {
+    content: "Reading"; }
   .list .not-watched:after {
     content: "Not Watched"; }
+  .list .not-read:after {
+    content: "Not Read"; }
 
 /* standard */
 .post pre {
