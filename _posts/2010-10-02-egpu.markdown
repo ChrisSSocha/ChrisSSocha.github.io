@@ -1,6 +1,6 @@
 ---
 layout: post
-title: X220 ePGU with Radeon HD 4870
+title: X220 eGPU with Radeon HD 4870
 date:   2010-10-02
 ---
 
