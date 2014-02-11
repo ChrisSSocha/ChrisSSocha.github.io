@@ -2,10 +2,30 @@
   comments: James Shore & Shane Warden
   status: reading
 
-- title: Unread book
-  comments: Author
+- title: Test-Driven Development By Example
+  comments: Kent Beck
   status: read
 
-- title: Read book
-  comments: Another author
+- title: Computer Architecture, A Quantitative Approach
+  comments: John Hennessy & David Patterson
+  status: read
+
+- title: Hard Code
+  comments: I.M.Wright
+  status: read
+
+- title: Effective Java
+  comments: Josh Bloch
+  status: read
+
+- title: Understanding Computation
+  comments: Tom Stuart
+  status: not-read
+
+- title: Modern Compiler Implementation in ML
+  comments: Appel
+  status: not-read
+
+- title: Java Concurrency in Practice
+  comments: Brian Goetz
   status: not-read
