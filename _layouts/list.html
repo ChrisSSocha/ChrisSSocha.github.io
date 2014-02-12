@@ -6,16 +6,20 @@ layout: default
 <div class="post">
 	{{ content }}
 
-	<ul class="list">
+	<table class="list">
     {% for data in site.data %}
         {% if data contains page.list %}
             {% for item in data[1] %}
-                <li><span class="{{ item.status }}"></span> {{ item.title }} 
+                <tr>
+                <td class="status"><span class="{{ item.status }}"></span></td>
+                <td>{{ item.title }} 
                 {% if item.comments %}
                     <em>({{ item.comments }})</em>
                 {% endif %}
+            </td>
+                <td>
             {% endfor %}
         {% endif %}
     {% endfor %}
-	</ul>
+	</table>
 </div>

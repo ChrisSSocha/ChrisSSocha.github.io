@@ -58,38 +58,37 @@ a {
 }
 
 .footer {
-  display: table;
-
   border-top: solid;
   border-top-width: 2px;
   border-top-color: lightgray;
   text-align: center;
   padding: 10px;
-}
 
-.footer-content {
-  display: table-cell;
-  width: 50%;
-  vertical-align: middle;
+  .footer-content {
+    float: left;
+    width: 50%;
+  }
+
+  .license {
+    float: right;
+    width: 50%;
+    text-align: justify;
+    font-size: 13px;
+  }
 }
 
 .small-font {
     font-size: 13px;
 }
 
-.license {
-  display: table-cell;
-  width: 50%;
-  text-align: justify;
-  font-size: 13px;
-}
-
 .posts {
-  list-style-type: none;
   margin-bottom: 2em;
+  margin-left: 20px;
+  line-height: 1.75em;
 
-  li {
-    line-height: 1.75em;
+  .date {
+    min-width: 110px;
+    vertical-align: top;
   }
 
   span {
@@ -102,6 +101,7 @@ a {
 .list {
   list-style-type: none;
   line-height: 25px;
+  margin-left: 20px;
 
   span {
     padding: 3px;
@@ -109,6 +109,10 @@ a {
     font-size: x-small;
     vertical-align: middle;
     border-style: solid;
+  }
+
+  .status{
+    vertical-align: top;
   }
 
   .watched, .read {

@@ -88,32 +88,30 @@ a {
   min-height: 300px; }
 
 .footer {
-  display: table;
   border-top: solid;
   border-top-width: 2px;
   border-top-color: lightgray;
   text-align: center;
   padding: 10px; }
-
-.footer-content {
-  display: table-cell;
-  width: 50%;
-  vertical-align: middle; }
+  .footer .footer-content {
+    float: left;
+    width: 50%; }
+  .footer .license {
+    float: right;
+    width: 50%;
+    text-align: justify;
+    font-size: 13px; }
 
 .small-font {
   font-size: 13px; }
 
-.license {
-  display: table-cell;
-  width: 50%;
-  text-align: justify;
-  font-size: 13px; }
-
 .posts {
-  list-style-type: none;
-  margin-bottom: 2em; }
-  .posts li {
-    line-height: 1.75em; }
+  margin-bottom: 2em;
+  margin-left: 20px;
+  line-height: 1.75em; }
+  .posts .date {
+    min-width: 110px;
+    vertical-align: top; }
   .posts span {
     color: #aaa;
     font-family: Monaco, "Courier New", monospace;
@@ -121,13 +119,16 @@ a {
 
 .list {
   list-style-type: none;
-  line-height: 25px; }
+  line-height: 25px;
+  margin-left: 20px; }
   .list span {
     padding: 3px;
     font-variant: small-caps;
     font-size: x-small;
     vertical-align: middle;
     border-style: solid; }
+  .list .status {
+    vertical-align: top; }
   .list .watched, .list .read {
     margin-right: 20px;
     border-color: green; }
