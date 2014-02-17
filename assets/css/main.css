@@ -128,9 +128,9 @@ a {
     vertical-align: middle;
     border-style: solid; }
   .list .status {
+    min-width: 60px;
     vertical-align: top; }
   .list .watched, .list .read {
-    margin-right: 20px;
     border-color: green; }
   .list .watched:after {
     content: "Watched"; }
@@ -139,7 +139,6 @@ a {
   .list .not-watched, .list .not-read {
     border-color: red; }
   .list .reading {
-    margin-right: 6px;
     border-color: green;
     border-style: double; }
   .list .reading:after {
