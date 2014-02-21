@@ -4,9 +4,9 @@ layout: default
 <h2>{{ page.title }}</h2>
 
 <div class="post">
-	{{ content }}
+  {{ content }}
 
-	<table class="list">
+  <table class="list">
     {% for data in site.data %}
         {% if data contains page.list %}
         {% assign sorted_list = data[1] | sort:"status" %}
@@ -22,5 +22,5 @@ layout: default
             {% endfor %}
         {% endif %}
     {% endfor %}
-	</table>
+  </table>
 </div>

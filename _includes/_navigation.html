@@ -1,10 +1,10 @@
 <div class="header">
   <div class="title">{{ site.name }}</div>
   <div class="navigation">
-  	<div class="button mobile-navigation">
-  	  <img src="{{ site.url }}/assets/img/mobile-menu.svg" alt="menu">
-  	  Menu
-  	</div>
+    <div class="button mobile-navigation">
+      <img src="{{ site.url }}/assets/img/mobile-menu.svg" alt="menu">
+      Menu
+    </div>
     {% for link in site.data.pages %}
       <a class="button navigation-link" href="{{ site.url}}{{ link.url }}">
         {{ link.title }} 
