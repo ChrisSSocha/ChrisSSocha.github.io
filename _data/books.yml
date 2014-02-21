@@ -10,22 +10,38 @@
   comments: John Hennessy & David Patterson
   status: read
 
-- title: Hard Code
-  comments: I.M.Wright
-  status: read
-
 - title: Effective Java
   comments: Josh Bloch
   status: read
 
-- title: Understanding Computation
-  comments: Tom Stuart
-  status: not-read
-
-- title: Modern Compiler Implementation in ML
-  comments: Appel
-  status: not-read
-
 - title: Java Concurrency in Practice
   comments: Brian Goetz
   status: not-read
+
+- title: Head First Design Patterns
+  comments: 
+  status: not-read
+
+- title: The Design of Everyday Things
+  comments: Donald Norman
+  status: not-read
+
+- title: Refactoring - Improving Design of Existing Code
+  comments: Martin Fowler
+  status: not-read
+
+- title: Design Patterns
+  comments: GoF
+  status: not-read
+
+#- title: Hard Code
+#  comments: I.M.Wright
+#  status: read
+#
+#- title: Understanding Computation
+#  comments: Tom Stuart
+#  status: not-read
+#
+#- title: Modern Compiler Implementation in ML
+#  comments: Appel
+#  status: not-read
