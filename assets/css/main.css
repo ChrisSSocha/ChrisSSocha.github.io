@@ -170,6 +170,11 @@ a {
 .post pre code {
   border: none; }
 
+.FourOhFour {
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
 /* terminal */
 .post pre.terminal {
   border: 1px solid #000;
