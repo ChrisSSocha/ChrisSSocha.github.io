@@ -106,7 +106,6 @@ a {
   font-size: 13px; }
 
 .posts {
-  margin-bottom: 2em;
   margin-left: 20px;
   line-height: 1.75em; }
   .posts .date {
@@ -116,6 +115,11 @@ a {
     color: #aaa;
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%; }
+
+.pagination {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center; }
 
 .list {
   list-style-type: none;

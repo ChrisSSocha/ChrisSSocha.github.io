@@ -82,7 +82,6 @@ a {
 }
 
 .posts {
-  margin-bottom: 2em;
   margin-left: 20px;
   line-height: 1.75em;
 
@@ -96,6 +95,12 @@ a {
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
   }
+}
+
+.pagination {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .list {
