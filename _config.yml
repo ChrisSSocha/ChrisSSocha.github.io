@@ -1,5 +1,5 @@
 name: ChrisSSocha Blog
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 paginate: 10
 paginate_path: "page:num"

@@ -86,6 +86,8 @@ a {
 .content {
   padding: 10px;
   min-height: 300px; }
+  .content img {
+    max-width: 100%; }
 
 .footer {
   border-top: solid;
