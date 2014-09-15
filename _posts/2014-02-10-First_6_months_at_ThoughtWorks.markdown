@@ -28,7 +28,7 @@ Outside of work, I found India to be completely captivating; it is a beautiful c
 
 ### After TWU
 
-I've now graduated from TWU, passed my 6 month probation, and have worked on a few different projects. Since started ThoughtWorks has given me so many different opportunities; I've done a lot of travelling, had opportunities to learn new languages, tools, and technologies, have paired with interesting ThoughtWorkers at all levels, and it's been a real pleasure to come to work in the morning.
+I've now graduated from TWU, passed my 6 month probation, and have worked on a few different projects. Since started ThoughtWorks has given me so many different opportunities; I've done a lot of traveling, had opportunities to learn new languages, tools, and technologies, have paired with interesting ThoughtWorkers at all levels, and it's been a real pleasure to come to work in the morning.
 
 If any of this sounds like something you would like to do, I suggest you start a conversation with our graduate recruiters, and see where ThoughtWorks can take you... :-)
 

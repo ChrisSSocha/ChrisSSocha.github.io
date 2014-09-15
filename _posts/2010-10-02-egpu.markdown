@@ -6,7 +6,7 @@ date:   2010-10-02
 
 I recently upgraded my old Dell Studio 1555 to a shiny new Lenovo ThinkPad X220.
 
-Needless to say that i love my ThinkPad; it's light, powerful, and very well build. The X220's grapical capability however is somewhat lacking, leading me to look into the possibility of having an external graphics card.
+Needless to say that i love my ThinkPad; it's light, powerful, and very well build. The X220's graphical capability however is somewhat lacking, leading me to look into the possibility of having an external graphics card.
 
 The hardware i used was:
 
@@ -17,7 +17,7 @@ The hardware i used was:
 
 An easy to use installation guide for connecting the PE4H to the X220 can be found on the [Notebook Review forums](http://forum.notebookreview.com/e-gpu-external-graphics-discussion/418851-diy-egpu-experiences-403.html#post7572285).
 
-Having installed everything, I ran a few testbenches to compare the score of the internal GPU, and external GPU:
+Having installed everything, I ran a few test benches to compare the score of the internal GPU, and external GPU:
 
 <center>
 <table cellpadding="10">

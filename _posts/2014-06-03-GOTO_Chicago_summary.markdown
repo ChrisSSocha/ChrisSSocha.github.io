@@ -15,7 +15,7 @@ By Adrian Cockcroft ([Slides](http://gotocon.com/dl/goto-chicago-2014/slides/Adr
 
 *__My take away points:__ Challenge assumptions to cause disruption*
 
-A lot of businesses are based on assumptions; If we start to question the assumptions, some may no longer hold true, and this is where there is real potential to disrupt big business. When Adrian Cockcroft was working at Netlix, they looked at the assumptions being made in the infrastructure world, and realised that some of these assumptions were no longer true. The slide below details average peoples reaction to Netflix's infrastructure transformation to the cloud, and how it evolved over time.
+A lot of businesses are based on assumptions; If we start to question the assumptions, some may no longer hold true, and this is where there is real potential to disrupt big business. When Adrian Cockcroft was working at Netflix, they looked at the assumptions being made in the infrastructure world, and realised that some of these assumptions were no longer true. The slide below details average peoples reaction to Netflix's infrastructure transformation to the cloud, and how it evolved over time.
 
 ![Slide #3]({{ site.url }}/assets/img/goto_speed_and_scale.png "Slide #3")
 
@@ -77,7 +77,7 @@ Lots of things don't really fit in our heads, but we cope (somehow). Dan describ
 In software development, our problems and painkillers are:
 
 * Architecture
-    * Emterprise mandates
+    * Enterprise mandates
 * Design
     * Undirected local changes
     * We like federated decision making, we don't like undirected...
@@ -102,7 +102,7 @@ By Martin Schray ([Slides](http://gotocon.com/dl/goto-chicago-2014/slides/Martin
 
 Martin Schray spoke to us about some of the concerns developer at Microsoft have with large scale JavaScript code bases, and how their new language, TypeScript, helps to alleviate some these concerns. Two of the more common complains are the need for compensating patterns to effectively do class-based OO programming, and that refactoring large code bases is hard without static type checking (Which leads to code rot in larger system).
 
-Martin showcased the (optional) type annotations which give us the "design time illusion of typing", and details how it is possible to use 'declaration files' which acts like an interface to 3rd party libraries which allows us to use the type annotations on these libraries (eg. [AngularJS](https://github.com/borisyankov/DefinitelyTyped/tree/master/angularjs))
+Martin showcased the (optional) type annotations which give us the "design time illusion of typing", and details how it is possible to use 'declaration files' which acts like an interface to 3rd party libraries which allows us to use the type annotations on these libraries (e.g. [AngularJS](https://github.com/borisyankov/DefinitelyTyped/tree/master/angularjs))
 
 ``` javascript
 // TypeScript type annotations
