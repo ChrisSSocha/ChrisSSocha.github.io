@@ -1,8 +1,11 @@
 ---
 ---
-@import "constants";
-@import "vendor_prefix";
-@import "navigation";
+@import "vendor/foundation/settings";
+@import "vendor/foundation";
+@import "vendor/normalize";
+
+@import "includes/constants";
+@import "includes/vendor_prefix";
 
 *, *:before, *:after {
   @include border-box(border-box)
@@ -28,26 +31,6 @@ a {
   margin-left: auto;
 
   padding: 10px;
-}
-
-.button {
-  background-color: $button-colour;
-
-  @include border-radius(2px);
-
-  height: 100%;
-  padding: 9px 5px;
-  margin-left: $button-margin;
-  margin-right: $button-margin;
-
-  width: $button-width;
-
-  color: black;
-}
-
-.button:hover {
-  background-color: $button-hover-colour;
-  cursor: pointer;
 }
 
 .navigation-link:active {
@@ -202,4 +185,10 @@ a {
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
 }

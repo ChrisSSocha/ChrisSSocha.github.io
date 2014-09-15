@@ -1,14 +1,20 @@
-<div class="header">
-  <div class="title">{{ site.name }}</div>
-  <div class="navigation">
-    <div class="button mobile-navigation">
-      <img src="{{ site.url }}/assets/img/mobile-menu.svg" alt="menu">
-      Menu
-    </div>
-    {% for link in site.data.pages %}
-      <a class="button navigation-link" href="{{ site.url}}{{ link.url }}">
-        {{ link.title }} 
-      </a>
-    {% endfor %}
-  </div>
-</div>
+<nav class="top-bar radius" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="{{ site.url}}">{{ site.name }}</a></h1>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      {% for link in site.data.pages %}
+        <li class="has-form">
+          <a href="{{ site.url}}{{ link.url }}" class="button radius">{{ link.title }} </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+</nav>
