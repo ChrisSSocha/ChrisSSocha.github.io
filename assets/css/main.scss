@@ -5,6 +5,7 @@
 @import "vendor/normalize";
 
 @import "includes/constants";
+@import "includes/lists";
 @import "includes/vendor_prefix";
 
 *, *:before, *:after {
@@ -70,8 +71,9 @@ a {
 }
 
 .posts {
-  margin-left: 20px;
+  /* margin-left: 20px; */
   line-height: 1.75em;
+  width: 100%;
 
   .date {
     min-width: 110px;
@@ -85,62 +87,14 @@ a {
   }
 }
 
+.post {
+  text-align: justify;
+}
+
 .pagination {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
-}
-
-.list {
-  list-style-type: none;
-  line-height: 25px;
-  margin-left: 20px;
-
-  span {
-    padding: 3px;
-    font-variant: small-caps;
-    font-size: x-small;
-    vertical-align: middle;
-    border-style: solid;
-  }
-
-  .status{
-    min-width: 60px;
-    vertical-align: top;
-  }
-
-  .watched, .read {
-    border-color: green;
-  }
-
-  .watched:after{
-    content: "Watched";
-  }
-
-  .read:after{
-    content: "Read";
-  }
-
-  .not-watched, .not-read {
-    border-color: red;
-  }
-
-  .reading {
-    border-color: green;
-    border-style: double;
-  }
-
-  .reading:after {
-    content: "Reading";
-  }
-
-  .not-watched:after {
-    content: "Not Watched";
-  }
-
-  .not-read:after {
-    content: "Not Read";
-  }
 }
 
 #about-me-pic{

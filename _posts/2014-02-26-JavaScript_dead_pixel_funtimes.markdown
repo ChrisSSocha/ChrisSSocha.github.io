@@ -2,6 +2,7 @@
 layout: post
 title: JavaScrip Dead Pixel Funtimes
 date:   2014-02-26
+published: false
 ---
 
 Just for fun, add *dead pixel* to your screen with this JavaScript bookmarklet:
