@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+active: about
 ---
 
 Hey, I'm Chris Socha.

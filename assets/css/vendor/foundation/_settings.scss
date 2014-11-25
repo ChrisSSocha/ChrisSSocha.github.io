@@ -1360,7 +1360,7 @@ $include-html-global-classes: $include-html-classes;
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-// $topbar-bg-color: red;
+$topbar-bg-color: grey;
 $topbar-bg: url("/assets/img/triangular.png");
 
 // Height and margin
@@ -1372,7 +1372,7 @@ $topbar-bg: url("/assets/img/triangular.png");
 // $topbar-title-font-size: rem-calc(17);
 
 // Style the top bar dropdown elements
-$topbar-dropdown-bg: rgba(235, 235, 235, 1);;
+$topbar-dropdown-bg: rgba(235, 235, 235, 1);
 // $topbar-dropdown-link-color: $white;
 // $topbar-dropdown-link-bg: $oil;
 // $topbar-dropdown-link-weight: $font-weight-normal;
@@ -1424,8 +1424,8 @@ $topbar-menu-icon-color-toggled: black;
 // $topbar-media-query: $medium-up;
 
 // Divider Styles
-// $topbar-divider-border-bottom: solid 1px  scale-color($topbar-bg-color, $lightness: 13%);
-// $topbar-divider-border-top: solid 1px scale-color($topbar-bg-color, $lightness: -50%);
+$topbar-divider-border-bottom: solid 1px  scale-color($topbar-bg-color, $lightness: 13%);
+$topbar-divider-border-top: solid 1px scale-color($topbar-bg-color, $lightness: 13%);
 
 // Sticky Class
 // $topbar-sticky-class: ".sticky";
