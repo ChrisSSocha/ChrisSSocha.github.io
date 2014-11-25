@@ -25,13 +25,8 @@ a {
 .site {
   font-family: $font-stack;
 
-  max-width: $max-page-width;
-  min-width: $min-page-width;
-
-  margin-right: auto;
-  margin-left: auto;
-
-  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .navigation-link:active {
