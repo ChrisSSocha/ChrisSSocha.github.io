@@ -1,6 +1,6 @@
 <div class="contain-to-grid">
   <div class="sticky">
-    <nav class="top-bar radius" data-topbar role="navigation">
+    <nav class="top-bar radius" data-topbar data-options="mobile_show_parent_link: false" role="navigation">
       <!-- Background pattern from subtlepatterns.com  -->
       <ul class="title-area">
         <li class="name">
@@ -16,12 +16,20 @@
             <a href="/">Home</a>
           </li>
           <li class="divider"></li>
-          <li {% if page.active == "about" %}class="active"{% endif %}>
-            <a href="/about">About</a>
+          <li class="has-dropdown {% if page.active == "about" %}active{% endif %}">
+            <a href="#">About</a>
+            <ul class="dropdown">
+              <li><a href="/about">About Me</a></li>
+              <li><a href="/about/books">Books</a></li>
+            </ul>
           </li>
           <li class="divider"></li>
-          <li {% if page.active == "books" %}class="active"{% endif %}>
-            <a href="/books">Books</a>
+          <li class="has-dropdown {% if page.active == "notes" %}active{% endif %}">
+            <a href="#">Notes</a>
+            <ul class="dropdown">
+              <li><a href="/notes">Java</a></li>
+              <li><a href="/notes">C#</a></li>
+            </ul>
           </li>
         </ul>
       </section>
