@@ -80,5 +80,5 @@ Jane Doe
 ~~~
 <br>
 
-NOTE: I **stronly** suggest you use prepared statements rather than regular statements when the you are using user input. It will protect you against SQL injections attacks.
+NOTE: I **strongly** suggest you use prepared statements rather than regular statements when the you are using user input. It will protect you against SQL injections attacks.
 {: .panel}
