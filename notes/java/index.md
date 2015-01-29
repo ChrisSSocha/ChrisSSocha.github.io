@@ -3,23 +3,21 @@ layout: notes
 title: Java
 ---
 
-# Java versions history and features
-
 ## Java versions history and features
 
 I wanted to take a closer look at some of the major additions to the Java language, libraries, and platform.
 
-## Java 1.0
+### Java 1.0
 
 Initial release
 
-## Java 1.1
+### Java 1.1
 
-### Nested classes
+#### Nested classes
 
 Nested classes are divided into two categories: static and non-static. Nested classes that are declared static are called **static nested classes**. Non-static nested classes are called **inner classes**. [[1]]
 
-#### Static nested classes
+##### Static nested classes
 
 {% highlight java %}
 public class OuterClass {
@@ -45,7 +43,7 @@ As with class methods and variables, a static nested class is associated with it
 Note: A static nested class interacts with the instance members of its outer class (and other classes) just like any other top-level class. In effect, a static nested class is behaviourally a top-level class that has been nested in another top-level class for packaging convenience. [[1]]
 {: .panel}
 
-#### Inner classes
+##### Inner classes
 
 As with instance methods and variables, an inner class is associated with an instance of its enclosing class and has direct access to that object's methods and fields. Also, because an inner class is associated with an instance, it cannot define any static members itself. An instance of InnerClass can exist only within an instance of OuterClass and has direct access to the methods and fields of its enclosing instance. [[1]]
 
@@ -116,76 +114,76 @@ public class OuterClass {
 }
 {% endhighlight %}
 
-### JDBC
+#### JDBC
 [...]
 
-### Reflection
+#### Reflection
 [...]
 
-## Java 1.2
+### Java 1.2
 
-### Unified Collections
+#### Unified Collections
 [...]
 
-### JIT
+#### JIT
 [...]
 
-## Java 1.3
+### Java 1.3
 
-### Hotspot JVM
+#### Hotspot JVM
 [...]
 
-## Java 1.4
+### Java 1.4
 
-### Assert
+#### Assert
 [...]
 
-### Regular expression
+#### Regular expression
 [...]
 
-### Exception chaining
+#### Exception chaining
 [...]
 
-### Non-blocking IO
+#### Non-blocking IO
 [...]
 
-### XML parser and XSLT processor (JAXP)
+#### XML parser and XSLT processor (JAXP)
 [...]
 
-## Java 1.5
+### Java 1.5
 
-### Generics
+#### Generics
 [...]
 
-### Annotations
+#### Annotations
 [...]
 
-### enum
+#### enum
 [...]
 
-### concurrent
+#### concurrent
 [...]
 
-## Java 1.6
+### Java 1.6
 
 minor changes
 
-## Java 1.7
+### Java 1.7
 
-### Project coin
+#### Project coin
 
 * Strings in switch
 * try-with-resource
 
-### Timsort > Mergesort
+#### Timsort > Mergesort
 [...]
 
-## Java 1.8
+### Java 1.8
 
-### Lambda expressions
+#### Lambda expressions
 [...]
 
-### Date & Time library
+#### Date & Time library
 [...]
 
 [1]: http://docs.oracle.com/javase/tutorial/java/javaOO/nested.html "Nested Classes"
