@@ -1,13 +1,11 @@
 ---
 layout: notes
-title: Java
+title: Java - Nested Classes
 ---
-
-## Nested classes
 
 Nested classes are divided into two categories: static and non-static. Nested classes that are declared static are called **static nested classes**. Non-static nested classes are called **inner classes**. [[1]]
 
-### Static nested classes
+## Static nested classes
 
 {% highlight java %}
 public class OuterClass {
@@ -33,7 +31,7 @@ As with class methods and variables, a static nested class is associated with it
 Note: A static nested class interacts with the instance members of its outer class (and other classes) just like any other top-level class. In effect, a static nested class is behaviourally a top-level class that has been nested in another top-level class for packaging convenience. [[1]]
 {: .panel}
 
-### Inner classes
+## Inner classes
 
 As with instance methods and variables, an inner class is associated with an instance of its enclosing class and has direct access to that object's methods and fields. Also, because an inner class is associated with an instance, it cannot define any static members itself. An instance of InnerClass can exist only within an instance of OuterClass and has direct access to the methods and fields of its enclosing instance. [[1]]
 
@@ -59,7 +57,7 @@ OuterClass.InnerClass innerClass = new OuterClass.InnerClass();
 <br>
 There are two special kinds of inner classes: _local classes_ and _anonymous classes_.
 
-#### Local classes
+### Local classes
 
 Local classes are classes that are defined in a block, which is a group of zero or more statements between balanced braces. You typically find local classes defined in the body of a method.
 
@@ -79,7 +77,7 @@ public class OuterClass {
 }
 {% endhighlight %}
 
-#### Anonymous classes
+### Anonymous classes
 
 Anonymous classes enable you to make your code more concise. They enable you to declare and instantiate a class at the same time. They are like local classes except that they do not have a name. Use them if you need to use a local class only once.
 

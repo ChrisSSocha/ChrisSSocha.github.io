@@ -1,0 +1,84 @@
+---
+layout: notes
+title: Java - JDBC
+---
+
+The Java Database Connectivity is an API to connect to databases (typically relational databases such as SQL)
+
+**Set up your test database**
+
+1. Setup local Postgress database (I used [Postgress.app](http://postgresapp.com/) as it is conveniant on OSX)
+2. `CREATE DATABASE test_database;`
+3. `\connect test_database`
+4. `CREATE SCHEMA test_schema;`
+5. `CREATE TABLE test_schema.test_table (firstname VARCHAR(20), lastname VARCHAR(20));`
+6. `INSERT INTO test_schema.test_table VALUES ('John', 'Doe');`
+7. `INSERT INTO test_schema.test_table VALUES ('Jane', 'Doe');`
+8. `INSERT INTO test_schema.test_table VALUES ('Joe', 'Bloggs');`
+9. `SELECT * FROM test_schema.test_table;`
+
+   ~~~
+    firstname  | lastname
+    -----------+----------
+     John      | Doe
+     Jane      | Doe
+     Joe       | Bloggs
+   ~~~
+
+10. Download the [Postgress SQL JDBC Driver](https://jdbc.postgresql.org/download.html) and [add it to your classpath](https://jdbc.postgresql.org/documentation/head/classpath.html)
+
+**JDBC Code**
+
+You can now execute the following Java code which uses the JDBC API and the Postgress driver to print out the rows where the lastname equals 'Doe'
+
+{% highlight java %}
+import java.sql.*;
+
+public class JdbcTest {
+
+    private static final String JDBC_DRIVER = "org.postgresql.Driver";
+    private static final String DB_URL = "jdbc:postgresql:test_database";
+
+    /*
+     * These settings depend on how you set up Postgress
+     *
+     * With Postgress.app, the defaults are:
+     * User: your user name
+     * Pass: blank
+     */
+    private static final String DB_USER = "chris";
+    private static final String DB_PASS = "";
+
+    private static final String SQL_QUERY = "SELECT * FROM test_schema.test_table WHERE lastname = ?";
+
+    public static void main(String[] args) throws ClassNotFoundException, SQLException {
+        Class.forName(JDBC_DRIVER);
+
+        Connection connection = DriverManager.getConnection(DB_URL, DB_USER,DB_PASS);
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement(SQL_QUERY);
+            preparedStatement.setString(1, "Doe");
+            ResultSet resultSet = preparedStatement.executeQuery();;
+
+            while(resultSet.next()){
+                String firstName = resultSet.getString("firstname");
+                String lastName = resultSet.getString("lastname");
+                System.out.println(String.format("%s %s", firstName, lastName));
+            }
+        } finally {
+            connection.close();
+        }
+    }
+}
+{% endhighlight %}
+
+Output:
+
+~~~
+John Doe
+Jane Doe
+~~~
+<br>
+
+NOTE: I **stronly** suggest you use prepared statements rather than regular statements when the you are using user input. It will protect you against SQL injections attacks.
+{: .panel}

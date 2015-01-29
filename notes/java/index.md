@@ -14,7 +14,7 @@ Initial release
 ### Java 1.1
 
 * [Nested Classes](./nested-classes.html)
-* JDBC
+* [JDBC](./jdbc.html)
 * Reflection
 
 ### Java 1.2
