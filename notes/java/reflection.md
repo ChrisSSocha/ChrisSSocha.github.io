@@ -87,9 +87,55 @@ public java.lang.String ReflectionTest$1SimpleClass.inheritedPublicField
 
 ### Modifying `Field`s
 
+
+**Code:**
+
+{% highlight java %}
+import java.lang.reflect.Field;
+
+public class ModifyingFields {
+    public static void main(String[] args) throws ClassNotFoundException, NoSuchFieldException, IllegalAccessException {
+
+        class SimpleClass {
+            public String publicField = "public original";
+            private String privateField = "private original";
+        }
+
+        SimpleClass simpleClass = new SimpleClass();
+
+        Field publicField = simpleClass.getClass().getDeclaredField("publicField");
+        Field privateField = simpleClass.getClass().getDeclaredField("privateField");
+
+        System.out.println(publicField.get(simpleClass));
+
+        // MUST make private field accessible, or else it will throw an IllegalAccessException
+        privateField.setAccessible(true);
+
+        System.out.println(privateField.get(simpleClass));
+
+        publicField.set(simpleClass, "public changed");
+        privateField.set(simpleClass, "private changed");
+
+        System.out.println(publicField.get(simpleClass));
+        System.out.println(privateField.get(simpleClass));
+    }
+}
+{% endhighlight %}
+
+**Output:**
+
+~~~
+public original
+private original
+public changed
+private changed
+~~~
+
 ### Calling `Method`s and `Constructor`s
+[...]
 
 ## Why use reflection
+[...]
 
 
 [1]: http://docs.oracle.com/javase/tutorial/reflect/ "Reflection"
