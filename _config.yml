@@ -4,6 +4,12 @@ highlighter: pygments
 paginate: 10
 paginate_path: "page:num"
 
+title: ChrisSSocha Blog
+author: Chris S Socha
+description: Chris Socha's technology blog
+keywords: 
+- technology
+
 sass:
     sass_dir: assets/css
     style: compressed
