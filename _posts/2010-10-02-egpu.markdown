@@ -1,7 +1,7 @@
 ---
 layout: post
 title: X220 eGPU with Radeon HD 4870
-description: Testing performance of eGPU
+description: Using an eGPU (external GPU) with my Lenovo X220 gives ~3 times graphical performance increase.
 keywords: eGPU, external GPU, X220, HD 4870, PE4H
 date: 2010-10-02
 ---

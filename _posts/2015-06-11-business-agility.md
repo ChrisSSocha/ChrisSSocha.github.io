@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Business agility and fast feedback
+description: Business agility is about having the fast feedback loops that give us the confidence to move at speed.
+keywords: business agility, fast feedback, fast feedback loops, confidence, continuous delivery, continuous integration, automatic testing, build pipeline, deployable, testing pyramid, test driven development
 date:   2015-06-11
 published: false
 ---

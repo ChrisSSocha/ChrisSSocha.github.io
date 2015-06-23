@@ -1,6 +1,8 @@
 ---
 layout: post
 title: StrengthsFinder and goal setting
+description: My top 5 strengths according to StregthsFinder, and my plans for continuous improvement.
+keywords: Strengths Finder, StrenthsFinder, Restorative, Input, Strategic, Relator, Learner
 date:   2014-02-6
 ---
 

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: GOTO Chicago Summary
+description: Summary of my favourite talks at GOTO Chicago 2014
+keywords: GOTO, Chicago, Summary, ThoughtWorks, Netflix, Complexity, Dan North, James Lewis, TypeScript, Javascript, Functional Programming
 date:   2014-06-03
 ---
 

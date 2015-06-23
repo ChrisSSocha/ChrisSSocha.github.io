@@ -1,6 +1,8 @@
 ---
 layout: post
 title: First 6 months at ThoughtWorks
+description: My first 6 moths at ThoughtWorks, and why you should join us!
+keywords: ThoughtWorks, Roy Singham, Martin Fowler, three pillars, social justice, economic justice, agile, ThoughtWorks University, TWU
 date:   2014-02-10
 ---
 

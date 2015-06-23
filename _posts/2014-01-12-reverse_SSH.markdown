@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Reverse SSH Tunnel
+description: How to use SSH to set up a reverse tunnel to test callbacks on development machines.
+keywords: reverse SSH, reverse SSH tunneling, API, callback
 date:   2014-01-12
 ---
 Here's an interesting thing I can across recently at work. We are using the PayPal API as a payment gateway on one of our client projects, but were having problems getting the callback from the API to our local dev machines.

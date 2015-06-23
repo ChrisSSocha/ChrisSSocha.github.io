@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Changing my perspective on testing
+description: How my understanding of testing has evolved from test last (if at all) to test driven development.
+keywords: Testing, Test Driven Development, TDD, assert, pre-condition, post-condition, unit testing, JUnit, ThoughtWorks, ThoughtWorks University, TDD is dead, confidence
 date:   2014-09-17
 ---
 

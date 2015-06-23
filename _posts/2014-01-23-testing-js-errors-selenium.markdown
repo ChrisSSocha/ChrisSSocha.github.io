@@ -2,6 +2,7 @@
 layout: post
 title: Testing JavaScript errors using Selenium
 date:   2014-01-23
+published: false
 ---
 
 While it is easy to unit test JavaScrip using frameworks like [Jasmine](http://pivotal.github.io/jasmine/), some JavaScript errors only occur when you integrate the different components together. Something I was interested in looking at was trying to catch JavaScript errors during the functional testing stage.
