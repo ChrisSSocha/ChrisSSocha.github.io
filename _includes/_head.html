@@ -23,13 +23,12 @@
 <meta http-equiv="date" content="{{page.date |date: '%A, %d  %Y %H:%M:%S GMT'}}" />
 {% endif %}
 
-<title>
-	{% if page.title %}
-		{{ page.title }}
-	{% else %}
-		{{ site.title }}
-	{% endif %}
-</title>
+{% if page.title %}
+	<title>{{ page.title }}</title>
+{% else %}
+	<title>{{ site.title }}</title>
+{% endif %}
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link rel="stylesheet" href="/assets/css/main.css">
