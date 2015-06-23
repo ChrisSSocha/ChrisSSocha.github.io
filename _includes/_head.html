@@ -13,14 +13,14 @@
 	<meta name="keywords" content="{{site.keywords | join: ','}}" />
 {% endif %}
 
-{% if page.description %}
+{% if page.author %}
 	<meta name="author" content="{{page.author}}" />
 {% else %}
 	<meta name="author" content="{{site.author}}" />
 {% endif %}
 
 {% if page.date %}
-<meta http-equiv="date" content="{{page.date |date: '%A, %d  %Y %H:%M:%S GMT'}}" />
+	<meta http-equiv="date" content="{{page.date |date: '%A, %d  %Y %H:%M:%S GMT'}}" />
 {% endif %}
 
 {% if page.title %}
