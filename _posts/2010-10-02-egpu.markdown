@@ -1,7 +1,9 @@
 ---
 layout: post
 title: X220 eGPU with Radeon HD 4870
-date:   2010-10-02
+description: Testing performance of eGPU
+keywords: eGPU, external GPU, X220, HD 4870, PE4H
+date: 2010-10-02
 ---
 
 I recently upgraded my old Dell Studio 1555 to a shiny new Lenovo ThinkPad X220.
