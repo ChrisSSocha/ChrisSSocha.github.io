@@ -1,6 +1,7 @@
 ---
 layout: notes
-title: Design Patterns (GoF Book Summary)
+title: Design Patterns
+parent: true
 ---
 # Introduction
 

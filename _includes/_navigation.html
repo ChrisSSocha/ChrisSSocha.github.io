@@ -27,9 +27,11 @@
           <li class="has-dropdown {% if page.active == "notes" %}active{% endif %}">
             <a href="#">Notes</a>
             <ul class="dropdown">
-              <li><a href="/notes/java/">Java</a></li>
-              <li><a href="/notes/c-sharp/">C#</a></li>
-              <li><a href="/notes/design-patterns/">Design Patterns</a></li>
+              {% for post in site.collections.notes.docs %}
+                {% if post.parent == true %}
+                  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endif %}
+              {% endfor %}
             </ul>
           </li>
         </ul>

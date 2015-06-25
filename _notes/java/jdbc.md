@@ -1,6 +1,7 @@
 ---
 layout: notes
 title: Java - JDBC
+parent: false
 ---
 
 The Java Database Connectivity is an API to connect to databases (typically relational databases such as SQL)

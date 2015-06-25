@@ -1,6 +1,7 @@
 ---
 layout: notes
 title: Java - Reflection
+parent: false
 ---
 
 ## Dynamic introspection with Java Reflection API

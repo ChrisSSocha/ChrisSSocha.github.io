@@ -1,6 +1,7 @@
 ---
 layout: notes
 title: C#
+parent: true
 ---
 
 # The relationship between C# and the .NET Framework

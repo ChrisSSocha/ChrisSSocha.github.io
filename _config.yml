@@ -13,3 +13,7 @@ keywords:
 sass:
     sass_dir: assets/css
     style: compressed
+
+collections:
+  notes:
+    output: true
