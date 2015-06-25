@@ -39,6 +39,8 @@ a {
   img {
     max-width: 100%;
   }
+  position: relative;
+  overflow: hidden;
 }
 
 .footer {
@@ -92,10 +94,10 @@ a {
   text-align: center;
 }
 
-#about-me-pic{
+.left-pic{
   margin-right:10px;
   float:left;
-  width:200px;
+  width:35%;
 }
 
 /* standard */
