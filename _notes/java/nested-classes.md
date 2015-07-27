@@ -2,6 +2,7 @@
 layout: notes
 title: Java - Nested Classes
 parent: false
+active: notes
 ---
 
 Nested classes are divided into two categories: static and non-static. Nested classes that are declared static are called **static nested classes**. Non-static nested classes are called **inner classes**. [[1]]

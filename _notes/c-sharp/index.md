@@ -2,6 +2,7 @@
 layout: notes
 title: C#
 parent: true
+active: notes
 ---
 
 # The relationship between C# and the .NET Framework

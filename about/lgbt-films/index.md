@@ -2,6 +2,7 @@
 layout: list
 title: LGBT Film List
 list: lgbt-films
+active: about
 ---
 
 I wanted to document all the different LGBT themed movies that I have watched, and that I would like to watch.

@@ -2,6 +2,7 @@
 layout: notes
 title: Java
 parent: true
+active: notes
 ---
 
 ## Java versions history and features

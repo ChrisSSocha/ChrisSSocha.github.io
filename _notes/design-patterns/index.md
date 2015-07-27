@@ -2,6 +2,7 @@
 layout: notes
 title: Design Patterns
 parent: true
+active: notes
 ---
 # Introduction
 
