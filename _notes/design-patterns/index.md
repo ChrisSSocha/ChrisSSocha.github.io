@@ -1,7 +1,7 @@
 ---
 layout: notes
 title: Design Patterns
-parent: true
+#parent: true
 active: notes
 ---
 # Introduction

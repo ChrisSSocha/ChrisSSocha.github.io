@@ -9,39 +9,13 @@ active: dnd
 
 ## Elyara Fei
 
-**Alignment:** Chaotic Good
-
-**Race:** Wood Elf
-
-**STR:** 18
-**DEX:** 16
-**CON:** 11
-**INT:** 12
-**WIZ:** 13
-**CHA:** 15
-
-**Sex:** Female
-
-**Age:** 130
-
-**Height:** 5"0'
-
-**Weight:** 89lb
-
-**Hair:** Copper Rose/Jasmine (#996666/#F8DE7E)
-
-**Skin:** Tan (#D2B48C)
-
-**Eyes:** Hazel (#594c26)
-
-**Tattoo:**: Has Copper Rose coloured tattoo on face around the eyes (Source image: http://bit.ly/1sBL49V), and her right arm is covered in tattoos resembling trances and 'swirls'
-
-**Preferred Hand:** Right
-
-**Clothes:**
-
- - Wears simple clothing common to wood elves in a 'Late Autumn' colour palette. The main garments are Sand Brown coloured, the hood is a much darker brown, with boots, belt, and vanbraces being a grayish brown. (Source image: http://bit.ly/1ouqP7S)
- - Colour palette: #5c4837, #6e665c, #bfb598, #8c765a, #ccc7be
+* **Alignment:** Chaotic Good
+* **Race:** Wood Elf
+* **STR:** 18 **DEX:** 16 **CON:** 11 **INT:** 12 **WIZ:** 13 **CHA:** 15
+* **Sex:** Female
+* **Age:** 130
+* **Height:** 5"0'
+* **Weight:** 89lb
 
 ###Personality
 
