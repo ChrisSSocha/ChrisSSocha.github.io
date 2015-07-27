@@ -7,5 +7,4 @@ TODO:
 
 * Finish Java Notes pages
 * Discussion of algorithms and complexity
-* Add metadata to SEO
 * Add redirects for old urls

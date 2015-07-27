@@ -16,6 +16,10 @@
             <a href="/">Home</a>
           </li>
           <li class="divider"></li>
+          <li {% if page.active == "about" %}class="active"{% endif %}>
+            <a href="/about">About</a>
+          </li>
+          {% comment %}
           <li class="has-dropdown {% if page.active == "about" %}active{% endif %}">
             <a href="#">About</a>
             <ul class="dropdown">
@@ -23,6 +27,7 @@
               <li><a href="/about/books">Books</a></li>
             </ul>
           </li>
+          {% endcomment %}
           <li class="divider"></li>
           <li class="has-dropdown {% if page.active == "notes" %}active{% endif %}">
             <a href="#">Tech Notes</a>
