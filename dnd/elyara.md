@@ -10,6 +10,7 @@ active: dnd
 ## Elyara Fei
 
 * **Alignment:** Chaotic Good
+* **Class**: Thief
 * **Race:** Wood Elf
 * **STR:** 18 **DEX:** 16 **CON:** 11 **INT:** 12 **WIZ:** 13 **CHA:** 15
 * **Sex:** Female
