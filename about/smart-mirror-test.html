@@ -1,0 +1,81 @@
+<head>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<style>
+* {
+	font-family: 'Open Sans', sans-serif;
+	background-color: black;
+	color: white;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 20px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+.tube {
+	list-style:none;
+}
+
+.tube span {
+	min-width: 160px;
+	display: inline-block;
+	padding: 3px;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+</style>
+</head>
+<body>
+	<div class="section group">
+		<div class="col span_1_of_3">
+		<h1>Today's agenda</h1>
+		<ul>
+			<li class="event">10.00 - 10.30: Breakfast with stuart</li>
+			<li class="event">11.00 - 12.00: Meeting with investors</li>
+			<li class="event">13.30 - 15.00: Core pairing hours</li>
+			<li class="event">19.00 - 20.00: Dinner with dad</li>
+		</ul>
+		</div>
+		<div class="col span_1_of_3"></div>
+		<div class="col span_1_of_3" style="text-align: right;">
+		<h1>Tube Status</h1>
+		<ul >
+			<li class="tube"><span style="background-color: green;">District</span></li>
+			<li class="tube"><span style="background-color: yellow; color: black;">Circle</span></li>
+			<li class="tube"><span style="background-color: pink; color: black;">Hammersmith & City</span></li>
+			<li class="tube"><span style="background-color: brown;">Bakerloo</span></li>
+			<li class="tube"><span style="background-color: teal;">Waterloo & city</span></li>
+			<li class="tube"><span style="background-color: red;">Central</span></li>
+			<li class="tube"><span style="background-color: blue;">Picadilly</span></li>
+			<li class="tube"><span style="background-color: grey;">Jubilee</span></li>
+			<li class="tube"><span style="background-color: purple;">Mentropolitain</span></li>
+			<li class="tube"><span style="background-color: lightblue;">Victora</span></li>
+			<li class="tube"><span style="background-color: black;">Northern</span></li>
+		</ul>
+		</div>
+	</div>
+</body>
