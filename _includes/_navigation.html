@@ -32,7 +32,8 @@
           <li class="has-dropdown {% if page.active == "notes" %}active{% endif %}">
             <a href="#">Tech Notes</a>
             <ul class="dropdown">
-              {% for post in site.collections.notes.docs %}
+              {% assign notes = site.collections | where: "label", "notes" | first %}
+              {% for post in notes.docs %}
                 {% if post.parent == true %}
                   <li><a href="{{ post.url }}">{{ post.title }}</a></li>
                 {% endif %}
