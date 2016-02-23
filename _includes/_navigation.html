@@ -11,44 +11,25 @@
 
       <section class="top-bar-section">
         <ul class="right">
-          <li class="divider"></li>
-          <li {% if page.active == "home" %}class="active"{% endif %}>
-            <a href="/">Home</a>
-          </li>
-          <li class="divider"></li>
-          <li {% if page.active == "about" %}class="active"{% endif %}>
-            <a href="/about">About</a>
-          </li>
-          {% comment %}
-          <li class="has-dropdown {% if page.active == "about" %}active{% endif %}">
-            <a href="#">About</a>
-            <ul class="dropdown">
-              <li><a href="/about">About Me</a></li>
-              <li><a href="/about/books">Books</a></li>
-            </ul>
-          </li>
-          {% endcomment %}
-          <li class="divider"></li>
-          <li class="has-dropdown {% if page.active == "notes" %}active{% endif %}">
-            <a href="#">Tech Notes</a>
-            <ul class="dropdown">
-              {% assign notes = site.collections | where: "label", "notes" | first %}
-              {% for post in notes.docs %}
-                {% if post.parent == true %}
-                  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                {% endif %}
-              {% endfor %}
-            </ul>
-          </li>
-          <li class="divider"></li>
-          <li class="has-dropdown {% if page.active == "dnd" %}active{% endif %}">
-            <a href="#">D&#38;D</a>
-            <ul class="dropdown">
-              <li><a href="/dnd/gnomeopath.html">The Gnoemopath</a></li>
-              <li><a href="/dnd/elyara.html">Elyara Fei</a></li>
-              <li><a href="/dnd/elhadron.html">Elhadron</a></li>
-            </ul>
-          </li>
+
+          {% for item in site.data.pages %}
+
+            {% capture active_class %}{% if page.active == item.active %}active{% endif %}{% endcapture %}
+            {% capture dropdown_class %}{% if item.dropdown %}has-dropdown{% endif %}{% endcapture %}
+
+            <li class="divider"></li>
+            <li class="{{ active_class }} {{ dropdown_class }}">
+              <a href= {{ item.url }}>{{ item.title }}</a>
+              {% if item.dropdown %}
+                <ul class="dropdown">
+                  {% for dropdown in item.dropdown %}
+                    <li><a href={{ dropdown.url }}>{{ dropdown.title }}</a></li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
+          {% endfor %}
+
         </ul>
       </section>
     </nav>

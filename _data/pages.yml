@@ -1,8 +1,27 @@
 - title: Home
   url: /
+  active: home
 
 - title: About
   url: /about
+  active: about
 
-- title: Books
-  url: /books
+- title: Tech Notes
+  url: "#"
+  active: notes
+  dropdown:
+    - title: "C#"
+      url: /notes/c-sharp/
+    - title: Java
+      url: /notes/java/
+
+- title: "D&D"
+  url: "#"
+  active: dnd
+  dropdown:
+    - title: The Gnomeopath
+      url: /dnd/gnomeopath.html
+    - title: Elyara Fei
+      url: /dnd/elyara.html
+    - title: Elhadron
+      url: /dnd/elhadron.html
