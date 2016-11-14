@@ -10,7 +10,7 @@
   url: "#"
   dropdown:
     - title: Smart Mirror
-      url: https://github.com/ChrisSSocha/Smart-Mirror
+      url: /projects/smart-mirror/
     - title: "D&D Spellbook"
       url: http://chris.socha.technology/spellbook/
     - title: CCPixel
