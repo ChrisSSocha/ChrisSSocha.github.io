@@ -10,10 +10,10 @@
   url: "#"
   active: notes
   dropdown:
-    - title: "C#"
-      url: /notes/c-sharp/
     - title: Java
       url: /notes/java/
+    - title: "C#"
+      url: /notes/c-sharp/
 
 - title: "D&D"
   url: "#"

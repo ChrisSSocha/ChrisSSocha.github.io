@@ -1,0 +1,73 @@
+---
+layout: notes
+title: Java - Lambda Expressions
+parent: false
+active: notes
+---
+
+Prior to Java 1.8, writing Java code in a functional way was very heavyweight, requiring an interface and an anonymous class:
+
+{% highlight java %}
+methodWithCallback(new Runnable() {
+	@Override
+	public void run() {
+		// do a thing
+	}
+});
+{% endhighlight %}
+<br/>
+The OpenJDK Lambda Project [[1]] defines some of the imperfections of anonymous inner classes:
+
+1. Bulky syntax
+2. Confusion surrounding the meaning of names and this
+3. Inflexible class-loading and instance-creation semantics
+4. Inability to capture non-final local variables
+5. Inability to abstract over control flow
+
+Project Lambda adresses some of these issues.
+
+## Functional Interfaces
+
+[Functional Interfaces](https://docs.oracle.com/javase/8/docs/api/java/lang/FunctionalInterface.html) are any interface with a single method (e.g. `Runnable`). The compiler identifies these based on the structure of the interface, or the `@FunctionalInterface` annotation can be added to express the design intent of the interface to the compiler.
+
+With existing libraries already extensively using functional interfaces, the Lambda Project continues to use this pattern which lets existing libraries use the new lambda expression. In additional to existing interfaces which fit the requirements of Functional Interfaces, Java 1.8 adds the following functional interfaces to `java.util.function`:
+
+|`Predicate<T>`|a boolean-valued property of an object|[JavaDoc](https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html)|
+|`Consumer<T>`|an action to be performed on an object|[JavaDoc](https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html)|
+|`Function<T,R>`|a function transforming a T to a R|[JavaDoc](https://docs.oracle.com/javase/8/docs/api/java/util/function/Function.html)|
+|`Supplier<T>`|provide an instance of a T (such as a factory)|[JavaDoc](https://docs.oracle.com/javase/8/docs/api/java/util/function/Supplier.html)|
+|`UnaryOperator<T>`|a function from T to T|[JavaDoc](https://docs.oracle.com/javase/8/docs/api/java/util/function/UnaryOperator.html)|
+|`BinaryOperator<T>`|a function from (T, T) to T|[JavaDoc](https://docs.oracle.com/javase/8/docs/api/java/util/function/BinaryOperator.html)|
+|`BiFunction<T,U,R>`|a function from (T,U) to R|[JavaDoc](https://docs.oracle.com/javase/8/docs/api/java/util/function/BiFunction.html)|
+
+## Lambda Expressions
+
+Some examples of lambda functions [[2]]:
+
+{% highlight java %}
+// with no parameter
+() -> System.out.println("Hello, world.")
+
+// with a single parameter (This example is an identity function).
+a -> a
+
+// with a single expression
+(a, b) -> a + b
+
+// with explicit type information
+(long id, String name) -> "id: " + id + ", name:" + name
+
+// with a code block
+(a, b) -> { return a + b; }
+{% endhighlight %}
+
+
+
+###More Reading:
+
+* [State of the Lambda](http://cr.openjdk.java.net/~briangoetz/lambda/lambda-state-final.html)
+* [Better closures](https://blogs.oracle.com/jrose/entry/better_closures)
+
+[1]: http://cr.openjdk.java.net/~briangoetz/lambda/lambda-state-final.html "State of the Lambda"
+[2]: http://www.webcitation.org/6e9wVTdaF "Wikipedia: Anonymous function"
+[3]: https://blogs.oracle.com/jrose/entry/better_closures "Better closures"

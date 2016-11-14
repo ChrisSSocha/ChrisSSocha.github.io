@@ -49,12 +49,10 @@ minor changes
 
 ### Java 1.7
 
-* Project coin
-  * Strings in switch
-  * try-with-resource  
+* Project coin (trings in switch, try-with-resource)
 * Timsort > Mergesort
 
 ### Java 1.8
 
-* Lambda expressions
+* [Lambda expressions](./lambda.html)
 * Date & Time library
