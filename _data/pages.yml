@@ -6,15 +6,6 @@
   url: /about
   active: about
 
-- title: Tech Notes
-  url: "#"
-  active: notes
-  dropdown:
-    - title: Java
-      url: /notes/java/
-    - title: "C#"
-      url: /notes/c-sharp/
-
 - title: "D&D"
   url: "#"
   active: dnd

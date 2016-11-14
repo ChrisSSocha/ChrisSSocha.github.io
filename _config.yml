@@ -15,7 +15,7 @@ sass:
     style: compressed
 
 collections:
-  notes:
+  dnd:
     output: true
 
 gems: [jekyll-paginate]

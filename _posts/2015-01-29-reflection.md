@@ -1,8 +1,9 @@
 ---
 layout: notes
-title: Java - Reflection
-parent: false
-active: notes
+title: Java Features&#58; Reflection
+description: A look at Java Features&#58; Reflection.
+keywords: java, reflection
+date:   2015-01-29
 ---
 
 ## Dynamic introspection with Java Reflection API
