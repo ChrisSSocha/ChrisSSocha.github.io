@@ -6,6 +6,16 @@
   url: /about
   active: about
 
+- title: "Projects"
+  url: "#"
+  dropdown:
+    - title: Smart Mirror
+      url: https://github.com/ChrisSSocha/Smart-Mirror
+    - title: "D&D Spellbook"
+      url: http://chris.socha.technology/spellbook/
+    - title: CCPixel
+      url: https://github.com/ChrisSSocha/CCPixel
+
 - title: "D&D"
   url: "#"
   active: dnd
