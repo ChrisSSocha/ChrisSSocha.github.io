@@ -4,19 +4,16 @@ title: Niilo (The Gnomeopath)
 active: dnd
 ---
 
-[![Niilo (The Gnomeopath)]({{ site.url }}/assets/img/gnomeopath.jpg)]({{ site.url }}/assets/img/gnomeopath.jpg)
-{: .left-pic}
-
 ## Niilo (The Gnomeopath)
+{:.niilo-hero}
 
-* **Alignment:** Neutral Good
-* **Class:** Hoodwinker, Priest of Baravar Cloakshadow (BARE-uh-vahr CLOKE-sha-doh)
-* **Race:** Gnome
-* **STR:** 10 **DEX:** 17 **CON:** 13 **INT:** 16 **WIZ:** 13 **CHA:** 9
-* **Sex:** Male
-* **Age:** --
-* **Height:** --
-* **Weight:** --
+<table>
+  <tr><th>Name</th><td>Niilo</td><th>Level</th><td>9</td></tr>
+  <tr><th>Alignment</th><td>NG</td><th>Race</th><td>Gnome</td></tr>
+  <tr><th>Sex</th><td>Male</td><th>Age</th><td>~66 (5th of Flamerule)</td></tr>
+  <tr><th>Ht.</th><td>3'4"</td><th>Wt.</th><td>77lb</td></tr>
+  <tr><th>Hair</th><td>Black</td><th>Eyes</th><td>Blue</td></tr>
+</table>
 
 ### Backstory
 

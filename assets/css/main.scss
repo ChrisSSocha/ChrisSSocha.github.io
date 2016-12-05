@@ -44,20 +44,17 @@ a {
 }
 
 .footer {
-  border-top: solid;
-  border-top-width: 2px;
-  border-top-color: lightgray;
+  border-top: 2px solid lightgray;
   text-align: center;
+  display: flex;
   padding: 10px;
 
   .footer-content {
-    float: left;
-    width: 50%;
+    flex: 1;
   }
 
   .license {
-    float: right;
-    width: 50%;
+    flex: 1;
     text-align: justify;
     font-size: 13px;
   }
@@ -146,4 +143,38 @@ a {
   .facet_sidebar {
     display: none;
   }
+}
+
+.niilo-hero,
+.elyara-hero,
+.elhadron-hero,
+.smart-mirror-hero{
+  height: 300px;
+  background-size: cover;
+  color: white;
+  text-shadow: 3px 3px 0 #000,
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+  padding: 30px;
+}
+
+.niilo-hero {
+  background-image: url('http://localhost:4000/assets/img/niilo-hero.jpg');
+}
+
+.elhadron-hero {
+  background-position-y: center;
+  background-image: url('http://localhost:4000/assets/img/elhadron-hero.jpg');
+}
+
+.elyara-hero {
+  background-position-y: center;
+  background-image: url('http://localhost:4000/assets/img/elyara-hero.jpg');
+}
+
+.smart-mirror-hero {
+  background-image: url('http://localhost:4000/assets/img/smart-mirror-hero.jpg');
+  background-position-y: center;
 }

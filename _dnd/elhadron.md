@@ -4,10 +4,8 @@ title: Elhadron
 active: dnd
 ---
 
-[![Elhadron]({{ site.url }}/assets/img/elhadron.jpg)]({{ site.url }}/assets/img/elhadron.jpg)
-{: .left-pic}
-
 ## Elhadron
+{:.elhadron-hero}
 
 * **Alignment:** Lawful Good
 * **Class:** Bladesinger - *"Bladesingers are both diplomats, and one person armies."*
