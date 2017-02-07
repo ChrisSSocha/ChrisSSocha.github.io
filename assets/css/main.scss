@@ -148,6 +148,7 @@ a {
 .niilo-hero,
 .elyara-hero,
 .elhadron-hero,
+.graff-hero,
 .smart-mirror-hero{
   height: 300px;
   background-size: cover;
@@ -172,6 +173,11 @@ a {
 .elyara-hero {
   background-position-y: center;
   background-image: url('/assets/img/elyara-hero.jpg');
+}
+
+.graff-hero {
+  background-position-y: center;
+  background-image: url('/assets/img/graff-hero.jpg');
 }
 
 .smart-mirror-hero {

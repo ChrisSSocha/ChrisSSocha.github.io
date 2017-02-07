@@ -7,14 +7,13 @@ active: dnd
 ## Elyara Fei
 {:.elyara-hero}
 
-* **Alignment:** Chaotic Good
-* **Class**: Thief
-* **Race:** Wood Elf
-* **STR:** 18 **DEX:** 16 **CON:** 11 **INT:** 12 **WIZ:** 13 **CHA:** 15
-* **Sex:** Female
-* **Age:** 130
-* **Height:** 5"0'
-* **Weight:** 89lb
+<table>
+  <tr><th>Name</th><td>Elyara Fei</td><th>Level</th><td>6</td></tr>
+  <tr><th>Alignment</th><td>CG</td><th>Race</th><td>Elf</td></tr>
+  <tr><th>Sex</th><td>Female</td><th>Age</th><td>~130</td></tr>
+  <tr><th>Ht.</th><td>5'0"</td><th>Wt.</th><td>89lb</td></tr>
+  <tr><th>Hair</th><td>Blonde</td><th>Eyes</th><td>Hazel</td></tr>
+</table>
 
 ###Personality
 

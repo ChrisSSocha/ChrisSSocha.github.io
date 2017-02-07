@@ -29,3 +29,7 @@ Elhadron is a tall grey elf, with blond hair and sharp blue eyes. He wears light
 * They traveled for some years, during which Elhadron went from strength to strength in long sword fighting, and started learning elven magic suitable for the battlefield.
 * Elhadron came of age, and their relationship became stronger until it culminated in a night of passion. The following morning Camaenil was nowhere to be found, with only a note being left behind stating that she had to continue alone, as he had become a distraction from her mission.
 * Distraught at what had happened, Elhadron continues on his travels, vowing to protect the elven way of life as Camaenil has taught him to...
+
+### Files
+
+* [Elhadron's Farewell letter to the party](/assets/files/ElhadronsLetter.pdf)
