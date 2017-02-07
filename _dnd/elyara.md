@@ -15,7 +15,7 @@ active: dnd
   <tr><th>Hair</th><td>Blonde</td><th>Eyes</th><td>Hazel</td></tr>
 </table>
 
-###Personality
+### Personality
 
 Having been brought up in Evermeet, Elyara has many of the beliefs and prejudices that come from the elven islands. She is friendly with most elven sub-races except the Drow (Although she thinks the Sun Elves are a bit 'uppity'). She has a distrust of most 'not-elves', and has heard many tales of human intolerance, repression, and murder. Despite these prejudices that were formed from upbringing, she is quite open minded to most things, and won't accept things just because she is told it is so.
 
