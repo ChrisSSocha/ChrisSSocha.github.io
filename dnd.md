@@ -28,6 +28,6 @@ This campaign was set in Greyhawk, in which i played two characters, Elhadron, a
 I've had the chance to Dungeon Master two 5th edition games of my own making, _"The Peacekeepers of Erehwon"_, and _"The Restless Isles"_.
 
 <figure class="align-center medium-img">
-  <img src="{{ 'assets/img/dming.jpg' | absolute_url }}" alt="">
+  <img src="{{ 'assets/img/restless-isles.jpg' | absolute_url }}" alt="">
   <figcaption>Me Dungeon Mastering my 5e <em>"The Restless Isles"</em> game</figcaption>
 </figure> 
