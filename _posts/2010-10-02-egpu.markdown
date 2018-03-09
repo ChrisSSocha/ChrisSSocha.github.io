@@ -30,13 +30,13 @@ Having installed everything, I ran a few test benches to compare the score of th
     </tr>
     <tr>
         <td>3DMark 05</td>
-        <td>3DMarks 6190</br>(CPU 17797)</td>
-        <td>3DMarks 16593</br>(CPU 4233)</td>
+        <td>3DMarks 6190 (CPU 17797)</td>
+        <td>3DMarks 16593 (CPU 4233)</td>
     </tr>
     <tr>
         <td>3DMark Vantage</td>
-        <td>3DMarks P1804</br>(GFX 1421, CPU 9314)</td>
-        <td>3DMarks P5543</br>(GFX 4852, CPU 9680)</td>
+        <td>3DMarks P1804 (GFX 1421, CPU 9314)</td>
+        <td>3DMarks P5543 (GFX 4852, CPU 9680)</td>
     </tr>
 </table>
 </center>

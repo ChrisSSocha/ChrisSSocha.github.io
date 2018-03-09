@@ -1,5 +1,5 @@
 ---
-layout: notes
+layout: post
 title: Java Features&#58; Nested Classes
 description: A look at Java Features&#58; Nested Classes.
 keywords: java, nested classes

@@ -1,0 +1,12 @@
+# Sample site navigation links
+
+- title: Home
+  url: /
+- title: About
+  url: /about
+- title: Projects
+  url: /projects/
+- title: D&D
+  url: /dnd/
+- title: Search
+  url: /search/

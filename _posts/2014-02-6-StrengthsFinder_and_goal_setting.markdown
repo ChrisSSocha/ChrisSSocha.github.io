@@ -10,25 +10,20 @@ At my last project we decided to all do the [StrengthsFinder](http://www.strengt
 
 I got the following top 5:
 
-1.    Restorative
+Restorative
+: People who are especially talented in restorative are adept at dealing with problems. They are good at figuring out what is wrong and resolving it.
 
-     People who are especially talented in restorative are adept at dealing with problems. They are good at figuring out what is wrong and resolving it.
+Input
+: People who are especially talented in the Input theme have a craving to know more. Often they like to collect and archive all kinds of info.
 
-2.    Input
+Strategic
+: People who are especially talented in Strategic theme create alternative ways to proceed. Faced with any given scenario, they can spot relevant patterns and issues.
 
-     People who are especially talented in the Input theme have a craving to know more. Often they like to collect and archive all kinds of info.
+Relator
+: People who are especially talented in the Relator theme enjoy a close relationship with others.
 
-3.    Strategic
-
-     People who are especially talented in Strategic theme create alternative ways to proceed. Faced with any given scenario, they can spot relevant patterns and issues.
-
-4.    Relator
-
-     People who are especially talented in the Relator theme enjoy a close relationship with others.
-
-5.    Learner
-
-     People who are especially talented in the Learner theme have a great desire to learn and want to continuously improve. In particular, the process of learning, rather than the outcome, excited them.
+Learner
+: People who are especially talented in the Learner theme have a great desire to learn and want to continuously improve. In particular, the process of learning, rather than the outcome, excited them.
 
 StrengthsFinder also gives individual feedback and a *huge* list of suggested actions. I've decided to try and focus on a few of these in the coming months and see how I progress. These are:
 
