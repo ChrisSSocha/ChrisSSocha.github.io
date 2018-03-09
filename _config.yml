@@ -18,4 +18,4 @@ collections:
   dnd:
     output: true
 
-gems: [jekyll-paginate]
+plugins: []

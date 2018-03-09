@@ -1,0 +1,94 @@
+---
+layout: post
+title: Tech Leadership Development Program
+description: Key takeaways from the ThoughtWorks Tech Leadership Development Program.
+keywords: Tech Lead, TLDP, Leadership, ThoughtWorks
+date:   2016-11-27
+---
+
+I was fortunate enough to be involved in the Tech Leadership Development Program at ThoughtWorks in late 2016. It was great to be able to talk to other experienced Tech Leads and take the time to understand what good technical leadership entails.
+
+# What is a Tech Lead?
+
+The Tech Lead role is a careful balance of **team leadership**, **technical development** skills, and a focus on **architectural evolution**. This intersection of roles is well described by Pat Kua in his article about [circles of responsibility](https://www.thekua.com/atwork/2015/06/tech-lead-circles-of-responsibility/).
+
+## Team leadership
+{: .clear}
+
+![Team member goals](/assets/img/team-goal-sweetspot.svg)
+{: .right-pic}
+
+Team leadership is about understanding the strengths and weaknesses of your team, fostering a culture of collaboration and feedback, empowering the team to own their work, and giving the team members opportunities to grow and improve.
+
+**Talk to the team often.** As a tech lead you must aim to understand everyone strengths, career goals, and leaning goals. Have frequent feedback sessions to see how people are tracking against their goals, and where you can help them!
+
+![Challenge vs. Skill/Ability](/assets/img/challenge-skill-ability.svg)
+{: .left-pic}
+
+Teams will inevitably have people of with different experience and skills levels, and as a tech lead you want to ensure people feel challenged and are not left to stagnate! Delegate to those who look bored; introduce feature leads to give people ownership for certain features that need a lot of attention (See: [Feature Leading in Agile Teams](https://www.thoughtworks.com/insights/blog/feature-leading-agile-team) and [Talking Feature Leads](https://www.thekua.com/atwork/2012/07/talking-feature-leads/))
+
+The advantages of diverse multidisciplinary teams is already well understood (See: [The Difference: How the Power of Diversity Creates Better Groups, Firms, Schools, and Societies](https://books.google.co.uk/books/about/The_Difference.html?id=FAFVHnJ7uK0C)), but you should make the roles and responsibilities of each team member clear so that there's no misunderstanding and everyone understands what is expected of them. Be clear! What should TL, BA, PM do?
+
+## Technical Leadership
+{: .clear}
+
+Creating a technical vision and architecture is an essential element of being a tech lead, but you don't need to do this alone! You will be surrounded by a team with a wide variety of experience you can draw on to help form the vision.
+
+When posed with a problem or a question from the client/business, If you need more time to consult with others or do some research, just say so! *"I have a few ideas I want to research, Let me get back to you!"* It's never a bad thing to ask questions when unsure about something, it just shows that you know what you don't know.
+
+A technical vision is something that should be shared, understood, and agreed by the team; An easy way to gauge that everyone is on the same page is to ask any dev on the team about the vision.
+
+Regarding decision making, this should be a collaborative process with the team. Think about what decisions we need to get right now, and which don't matter and can safely be kicked down the road. If you're still having problems making a decision, think about what extra information you would need to confidently make that decision.
+
+It's also important to understand how people feel about the current technologies you are using, so you can get a steer as to what technologies you would like to adopt into your tech stack, and which technologies are dead weight and would be worth jettisoning. Consider [building your own tech radar](https://www.thoughtworks.com/insights/blog/build-your-own-technology-radar) to help grow your understanding in the team.
+
+## Influencing
+
+Influencing if an important part of leadership and consulting; As a tech lead it will often fall on you to influence leaders within the business.
+
+![Push, Pull, Head, Heart influencing](/assets/img/push-pull-head-heart.svg)
+{: .left-pic}
+
+You can use tools like the Push/Pull/Head/Heart tool to help you understand a problem or decision from different angles which will help communicate more effectively. *Head* is about a objective, logical, data-driven arguments, while *Heart* is a more emotional, subjective argument. A *Push* argument is about driving towards a solution, while a *Pull* argument is about bringing them to your way of thinking and making them want to pick a solution themselves. This image provides a few examples...
+
+There are lots of different approaches to influencing, though my preferred method is **Evidence Led Consulting**, that is using data to compare and contrast alternatives and drive towards a particular outcome, and can be categorised as *Push/Head* (*Pull/Head* may sometimes be needed depending on who you are talking to and your relationship with that person.)
+
+Meeting where you are looking for a particular outcome or decision can be hard and have little value if you have not been able to get agreement. In these sorts of meeting, give them a decision to make: *"I think you should pilot CD on this project because..."*
+
+One popular approach hen presenting is [Minto's Pyramid Principle](https://www.consultantsmind.com/2016/10/05/minto/), though you need to work out if this style works for you.
+
+## Communication
+
+An effective team depends on effective communication - It's one of the reasons that we always push for co-located teams as it enables high bandwidth communication! Meetings however often feel like a burden, so we need to get better at conducting **outcome driven meetings**:
+
+* State the outcome of meeting at start
+* Focus on issues and put things in the [parking lot](http://www.agile-ux.com/2010/12/16/parking-lot-a-good-facilitation-tool/)
+* Define Criteria, Define how solutions may/may not fit
+* Say **why** you are suggesting a particular solution
+
+Team history is another important communication tool. As teams and technologies evolve, we need to ensure we understanding the decisions that were made along the way that shaped the team or project into what it is today. The role of the *Team Lore Keeper* is vital and typically falls to the Tech Lead. The use of [Architecture Decision Records](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) can often help keep a log of the most important decisions taken!
+
+## Software Development
+{: .clear}
+
+A few key takeaways to think about:
+
+* Code that is hard to understand is hard to change
+* **Tech Debt**: How can we visualise? How can we relate it to the business?
+* **Consistency**: Skillset + ideology, not consistent code.
+* Simplicity vs tech? (e.g. Use cases for different JS frameworks)
+
+## Risks / Issues
+
+**Risks** describe things that *could* happen in the future, while **Issues** describe things that are happening *now*!
+
+You need to act on issues! The Tech Lead is responsible for identifying tech risks and make the PM aware.
+
+Stakeholders need to have a shared understanding of the risk so they can correctly prioritise them. Remember, a valid mitigation can be to accept the risk, but it must be explicit decision. You should also be aware that people are often bad at prioritising low probability/high impact risks, which is why accurate communication of risk/impact for these is important. (For example: In aviation, the risk of a volcano erupting is very low, but the [impact is very high](https://en.wikipedia.org/wiki/Air_travel_disruption_after_the_2010_Eyjafjallaj%C3%B6kull_eruption))
+
+# More reading
+{: .clear}
+
+* [The Geek's Guide to Leading Teams](https://www.youtube.com/watch?v=N9UPW-2wL5U)
+* [Tech Lead Butterfly](http://www.engineeringandcareering.co.uk/2013/05/the-well-rounded-technical-lead-model.html)
+* [Talking with Tech Leads - From novices to practitioners](https://leanpub.com/talking-with-tech-leads)

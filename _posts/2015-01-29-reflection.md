@@ -1,6 +1,6 @@
 ---
 layout: notes
-title: Java Features&#58; Reflection
+title: Java Reflection
 description: A look at Java Features&#58; Reflection.
 keywords: java, reflection
 date:   2015-01-29

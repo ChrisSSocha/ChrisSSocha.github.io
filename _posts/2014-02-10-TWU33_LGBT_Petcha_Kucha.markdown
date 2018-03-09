@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TWU33 Pecha Kucha - A Short History of LGBT Rights
+title: Pecha Kucha - A Short History of LGBT Rights
 description: A Pecha Kucha presentation covering short history of LGBT rights, as presented at ThoughtWorks University 33
 keywords: ThoughtWorks, ThoughtWorks University, TWU33, LGBT, LGBT rights, pecha kucha
 date:   2014-02-10
