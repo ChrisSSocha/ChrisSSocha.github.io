@@ -6,7 +6,7 @@ permalink: /dnd/
 
 Dungeons and Dragons is a fantasy tabletop role playing game that I have been playing with friends and colleagues since August 2014. I've played in two 2nd edition campaigns, and have DM'd a few 5th edition one shots!
 
-I've also created a [D&D 2e Spellbook](http://chris.socha.technology/spellbook/) web page to help people work out all the spells they should have access to.
+I've created a [D&D 2e Spellbook](http://chris.socha.technology/spellbook/) web page to help people work out all the spells they should have access to.
 
 I've also given lightning talks about why D&D is and why I enjoy playing it. (See: [slides]({{ 'assets/files/dnd-presentation.pdf' | absolute_url }}))
 
