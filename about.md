@@ -8,7 +8,9 @@ permalink: /about/
 
 # Chris Socha
 
-**Software Engineer** at [ThoughtWorks](http://www.thoughtworks.com/) and [Imperial College](http://www3.imperial.ac.uk/) Electronic and Information Engineering graduate 
+**Senior Software Engineer** at [Quin](https://quintech.io/). We’re using science, engineering and design to help people who take insulin make the best possible decisions!
+
+Previously developer at [ThoughtWorks](http://www.thoughtworks.com/). [Imperial College](http://www3.imperial.ac.uk/) Electronic and Information Engineering graduate.
 
 My interests in computing range from the small - *processor architecture, compilers, and embedded systems* - to the large - *enterprise software, and distributed systems*.
 
